@@ -4,7 +4,7 @@ on:
      types:
       - opened
      branches:
-      - master
+      - main
       - 'dev*'
       - 'feat/**'
    workflow_dispatch:
@@ -30,4 +30,4 @@ jobs:
       - name: Build code
         run: npm run build
       - name: Deploy project
-        run: echo "Deploying...."
+        run: echo "Deploying..."
